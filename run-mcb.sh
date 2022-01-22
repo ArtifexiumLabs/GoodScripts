@@ -1,0 +1,4 @@
+MINECRAFT_SERVER_BEDROCK=/home/adam/servers/minecraft-server-bedrock
+CURRENT_DATETIME=`date +%Y%m%d%H%M%S`
+LD_LIBRARY_PATH=$MINECRAFT_SERVER_BEDROCK
+$MINECRAFT_SERVER_BEDROCK/bedrock_server > ./logs/$CURRENT_DATETIME.log 2>&1 &
