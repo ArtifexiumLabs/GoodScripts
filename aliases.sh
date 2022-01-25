@@ -4,3 +4,7 @@ alias mcj=~/.scripts/run-mcj.sh
 alias mcjlogs=~/.scripts/mcjlogs.sh
 alias profile=~/.scripts/profile.sh
 alias profiles=~/.scripts/profiles.sh
+alias acp=~/.scripts/git-add-commit-push.sh
+alias gs=~/.scripts/git-status.sh
+. ~/.scripts/ssh-aliases.sh
+. ~/.scripts/start_dir.sh
