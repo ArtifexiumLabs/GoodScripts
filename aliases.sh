@@ -8,3 +8,4 @@ alias acp=~/.scripts/git-add-commit-push.sh
 alias gs=~/.scripts/git-status.sh
 . ~/.scripts/ssh-aliases.sh
 . ~/.scripts/start_dir.sh
+. ~/.scripts/PS1.sh
