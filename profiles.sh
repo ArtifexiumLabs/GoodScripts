@@ -1,7 +1,7 @@
 if [[ `hostname` == 'AdamPC' ]]; then
-	. ~/.bash_profile
+	source ~/.bash_profile
 elif [[ `hostname` == 'adam-ubuntu' ]]; then
-	. ~/.profile
+	source ~/.profile
 else
 	echo "Unknown default profile"
 fi
