@@ -7,7 +7,7 @@ alias profiles='~/.scripts/profiles.sh'
 alias acp='~/.scripts/git-add-commit-push.sh'
 alias gs='~/.scripts/git-status.sh'
 alias gp='~/.scripts/git-pull.sh'
-alias scripts='~/.scripts/edit-scripts.sh'
+alias scripts='cd ~/.scripts'
 source ~/.scripts/ssh-aliases.sh
 source ~/.scripts/start-dir.sh
 source ~/.scripts/PS1.sh
