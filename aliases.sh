@@ -11,3 +11,4 @@ alias scripts='cd ~/.scripts'
 source ~/.scripts/ssh-aliases.sh
 source ~/.scripts/start-dir.sh
 source ~/.scripts/PS1.sh
+source ~/.scripts/*/aliases.sh
