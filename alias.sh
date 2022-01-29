@@ -14,10 +14,11 @@ alias acp='./git-add-commit-push.sh'
 alias gs='git status'
 alias gp='git pull'
 
-cd ~/projects
-
 #================================================
 #       Import Custom Configuration
 #================================================
 config=`hostname`
 source ./$hostname/alias.sh
+
+# Starting directory
+cd ~/projects

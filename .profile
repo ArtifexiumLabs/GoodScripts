@@ -1,1 +1,1 @@
-source ~/.scripts/aliases.sh
+source ~/.scripts/alias.sh
