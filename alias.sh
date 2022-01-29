@@ -18,7 +18,8 @@ alias gp='git pull'
 #       Import Custom Configuration
 #================================================
 config=`hostname`
-source ./$hostname/alias.sh
+source ./$config/alias.sh
+echo 'asdf'
 
 # Starting directory
 cd ~/projects
