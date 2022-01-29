@@ -1,3 +1,3 @@
 cp .profile ~
 mkdir ~/.scripts
-cp -r . ~/.scripts
+cp -rf . ~/.scripts
