@@ -1,14 +1,23 @@
-alias aos='~/.scripts/run-spades.sh'
-alias mcb='~/.scripts/run-mcb.sh'
-alias mcj='~/.scripts/run-mcj.sh'
-alias mcjlogs='~/.scripts/mcjlogs.sh'
-alias profile='~/.scripts/profile.sh'
-alias profiles='~/.scripts/profiles.sh'
-alias acp='~/.scripts/git-add-commit-push.sh'
-alias gs='~/.scripts/git-status.sh'
-alias gp='~/.scripts/git-pull.sh'
-alias scripts='cd ~/.scripts'
-source ~/.scripts/ssh-aliases.sh
-source ~/.scripts/start-dir.sh
-source ~/.scripts/PS1.sh
-source ~/.scripts/*/aliases.sh
+#================================================
+#       CD Into This Directory
+#================================================
+cd ~/.scripts
+
+#================================================
+#       Begin Default Scripts
+#================================================
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ '
+
+alias profile='./profile.sh'
+alias profiles='./profiles.sh'
+alias acp='./git-add-commit-push.sh'
+alias gs='git status'
+alias gp='git pull'
+
+cd ~/projects
+
+#================================================
+#       Import Custom Configuration
+#================================================
+config=`hostname`
+source ./$hostname/alias.sh
