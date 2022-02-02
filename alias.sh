@@ -12,14 +12,17 @@ alias profile='vim ~/.profile'
 alias profiles='source ~/.profile'
 alias acp='./git-add-commit-push.sh'
 alias gs='git status'
+alias gc='if [[ -z $1 ]]; then git commit; else git commit -m "$1"; fi'
 alias gp='git pull'
+
 
 #================================================
 #       Import Custom Configuration
 #================================================
 config=`hostname`
-source ./$config/alias.sh
-echo 'asdf'
 
 # Starting directory
+mkdir -p ~/projects
 cd ~/projects
+
+source ./$config/alias.sh
