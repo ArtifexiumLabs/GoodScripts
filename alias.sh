@@ -22,3 +22,8 @@ alias gp='git pull'
 config=$(hostname)
 
 source ./$config/alias.sh
+
+#================================================
+#       Default Directory to Start In
+#================================================
+cd - # back to same directory
