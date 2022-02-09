@@ -14,6 +14,9 @@ alias acp='./git_add_commit_push.sh'
 alias gs='git status'
 alias gc='if [[ -z $1 ]]; then git commit; else git commit -m "$1"; fi'
 alias gp='git pull'
+alias server='ssh -p 2222 adam@ssh.binarycontradiction.com'
+alias serverl='ssh -p 2222 adam@192.168.1.74'
+alias pi='ssh pi@192.168.1.127'
 
 
 #================================================
