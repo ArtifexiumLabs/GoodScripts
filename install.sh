@@ -9,9 +9,12 @@ chmod -R 755 ~/.scripts
 
 read -p "Pressing enter will overwrite your .profile file. Are you sure?"
 echo "Overwriting and sourcing .profile"
-if [[ `hostname` == 'Adams-MBP.attlocal.net' ]]; then
+
+AdamsMBP='Adams-MBP.attlocal.net'
+if [[ `hostname` == $AdamsMBP ]]; then
 	echo "Macbook detected - Adding line to .zshrc"
-	grep -qxF 'source ~/.scripts/alias.sh' .zshrc || echo 'source ~/.profile' >> .zshrc
+	alias_line=`source ~/.scripts/$AdamsMBP/alias.sh`
+	grep -qxF $alias_line ~/.zshrc || echo $alias_line >> ~/.zshrc
 	source ~/.zshrc
 else
 	cp .profile ~/.bash_profile

@@ -1,2 +1,2 @@
-alias profile='vim ~/.zshrc'
-alias profiles='source ~/.zshrc'
+export alias profile='vim ~/.zshrc'
+export alias sourcep='source ~/.zshrc'
