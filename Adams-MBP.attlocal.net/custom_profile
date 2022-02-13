@@ -1,0 +1,2 @@
+alias mongostart="brew services start mongodb-community"
+alias mongostop="brew services stop mongodb-community"
