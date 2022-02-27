@@ -1,4 +1,2 @@
-cd adam-ubuntu
 alias aos='piqueserver'
-alias mc='./mc.sh'
-alias mclog='./mclog.sh'
+alias mclog='tail -f /home/adam/servers/minecraft-server-java/logs/latest.log'
