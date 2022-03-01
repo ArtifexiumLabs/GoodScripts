@@ -27,4 +27,4 @@ alias la='ls -la'
 #================================================
 config=$(hostname)
 
-source ./$config/custom_profile
+source ~/.GoodScripts/$config/custom_profile
