@@ -1,2 +1,3 @@
 alias mongostart="brew services start mongodb-community"
 alias mongostop="brew services stop mongodb-community"
+eval "$(/opt/homebrew/bin/brew shellenv)"
