@@ -1,7 +1,7 @@
 #================================================
 #       Begin Default Scripts
 #================================================
-export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ '
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '
 export LS_COLORS=$LS_COLORS:'di=1;33:ln=36'
 export BASH_SILENCE_DEPRECATION_WARNING=1 # supress zsh warning
 alias ls='ls --color=auto'
@@ -15,7 +15,7 @@ alias gs='git status'
 alias gc='if [[ -z $1 ]]; then git commit; else git commit -m "$1"; fi'
 alias gp='git pull'
 alias server='ssh -p 2222 adam@ssh.binarycontradiction.com'
-alias serverl='ssh -p 2222 adam@192.168.1.74'
+alias serverl='ssh -p 2222 server@192.168.1.74'
 alias pi='ssh pi@192.168.1.127'
 alias l='ls -l'
 alias a='ls -a'
