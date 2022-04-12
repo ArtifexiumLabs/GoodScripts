@@ -1,7 +1,7 @@
 #================================================
 #       Begin Default Scripts
 #================================================
-export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\n\$ '
 export LS_COLORS=$LS_COLORS:'di=1;33:ln=36'
 export BASH_SILENCE_DEPRECATION_WARNING=1 # supress zsh warning
 alias ls='ls --color=auto'
