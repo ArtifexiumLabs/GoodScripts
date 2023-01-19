@@ -1,2 +1,0 @@
-alias aos='piqueserver'
-alias mclog='tail -f /home/adam/servers/minecraft-server-java/logs/latest.log'
